@@ -33,7 +33,7 @@ são pares, impares e nulos.
 # Questao 2
 2. Escreva um algoritmo que gere o números de 1000 a 1999 e escreva aqueles
 que, divididos por 11, dão resto igual a 5.
-
+```java
  int numero;
         numero = 1000;
 
@@ -43,12 +43,12 @@ que, divididos por 11, dão resto igual a 5.
             }
             numero++;
         } while (numero <= 1999);
-
+```
 # Questao 3
 3. Escrever um algoritmo que lê 10 valores, um de cada vez, e conta quantos deles
 estão no intervalo [10,20] e quantos deles estão fora do intervalo, escrevendo
 estas informações.
-
+```java
  int c, numero, ce, cf;
         Scanner ler = new Scanner(System.in);
         c = 1;
@@ -70,12 +70,12 @@ estas informações.
     }
 
 }
-
+```
  # Questao 4
 4. Chico tem 1,50 metro e cresce 2 centímetros por ano, enquanto Zé tem 1,10
 metro e cresce 3 centímetros por ano. Construa um algoritmo que calcule e
 imprima quantos anos serão necessários para que Zé seja maior que Chico.
-
+```java
  int chico, ze, anos;
         chico = 150;
         ze = 110;
@@ -90,6 +90,7 @@ imprima quantos anos serão necessários para que Zé seja maior que Chico.
     }
 
 }
+```
 # Questao 5
 
 5. Escrever um algoritmo que leia uma quantidade desconhecida de números e
